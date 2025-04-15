@@ -3,14 +3,14 @@ import { FaArrowLeft } from "react-icons/fa";
 
 const CreateTask = () => {
   return (
-      <div className=" bg-gray-50 flex flex-col">
+      <div className=" bg-gray-50 flex flex-col mt-4">
       {/* Header */}
-      <div className="flex items-center gap-4 px-8 pt-6">
+      {/* <div className="flex items-center gap-4 px-8 pt-6">
         <button className="h-10 w-10 rounded-full bg-white shadow-md flex items-center justify-center hover:bg-gray-100 transition">
           <FaArrowLeft className="text-gray-600" />
         </button>
         <h1 className="text-3xl font-semibold text-gray-800">Create Task</h1>
-      </div>
+      </div> */}
 
       {/* Form Section */}
       <form className="px-10 py-8 flex-grow">
